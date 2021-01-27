@@ -147,3 +147,10 @@ for i in range(32):
 
 picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_ff63b0}
 
+
+Using netcat (nc) is going to be pretty important. Can you connect to jupiter.challenges.picoctf.org at port 64287 to get the flag?
+
+picoCTF{nECat_Mast3ry_284be8f7}
+
+There's something int the building. Can you retrieve the flag?
+picoCTF{h1d1ng_1n_th3_b1t5}
