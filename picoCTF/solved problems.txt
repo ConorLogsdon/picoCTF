@@ -154,3 +154,7 @@ picoCTF{nECat_Mast3ry_284be8f7}
 
 There's something int the building. Can you retrieve the flag?
 picoCTF{h1d1ng_1n_th3_b1t5}
+
+This garden contains more than it seems.
+picoCTF{more_than_m33ts_the_3y3657BaB2C} #hidden in hex, use any hex editor
+
