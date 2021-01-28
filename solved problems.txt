@@ -1,0 +1,160 @@
+What is 0x3D (base 16) in decimal (base 10)?
+picoCTF{61}
+
+The numbers... what do they mean?
+PICOCTF{THENUMBERSMASON}
+
+Decrypt this message.
+picoCTF{dspttjohuifsvcjdpoabrkttds}'
+picoCTF{crossingtherubiconzaqjsscr}
+
+Your mission is to enter Dr. Evil's laboratory and retrieve the blueprints for his Doomsday Project. The laboratory is protected by a series of locked vault doors. Each door is controlled by a computer and requires a password to open. Unfortunately, our undercover agents have not been able to obtain the secret passwords for the vault doors, but one of our junior agents obtained the source code for each vault's computer! You will need to read the source code for each level to figure out what the password is for that vault door. As a warmup, we have created a replica vault in our training facility. The source code for the training vault is here: VaultDoorTraining.java
+
+import java.util.*;
+
+class VaultDoorTraining {
+    public static void main(String args[]) {
+        VaultDoorTraining vaultDoor = new VaultDoorTraining();
+        Scanner scanner = new Scanner(System.in); 
+        System.out.print("Enter vault password: ");
+        String userInput = scanner.next();
+	String input = userInput.substring("picoCTF{".length(),userInput.length()-1);
+	if (vaultDoor.checkPassword(input)) {
+	    System.out.println("Access granted.");
+	} else {
+	    System.out.println("Access denied!");
+	}
+   }
+
+    // The password is below. Is it safe to put the password in the source code?
+    // What if somebody stole our source code? Then they would know what our
+    // password is. Hmm... I will think of some ways to improve the security
+    // on the other doors.
+    //
+    // -Minion #9567
+    public boolean checkPassword(String password) {
+        return password.equals("w4rm1ng_Up_w1tH_jAv4_eec0716b713");
+    }
+}
+
+
+picoCTF{"w4rm1ng_Up_w1tH_jAv4_eec0716b713"}
+
+
+Can you find the robots? https://jupiter.challenges.picoctf.org/problem/36474/ (link) or http://jupiter.challenges.picoctf.org:36474		
+
+https://jupiter.challenges.picoctf.org/problem/36474/robots.txt
+
+User-agent: *
+Disallow: /477ce.html
+
+https://jupiter.challenges.picoctf.org/problem/36474/477ce.html
+
+Guess you found the robots
+picoCTF{ca1cu1at1ng_Mach1n3s_477ce}	
+
+ls -l https://jupiter.challenges.picoctf.org/problem/36474/
+
+Can you convert the number 42 (base 10) to binary (base 2)? 
+picoCTF{101010}
+
+Cryptography can be easy, do you know what ROT13 is? cvpbPGS{abg_gbb_onq_bs_n_ceboyrz}
+
+picoCTF{not_too_bad_of_a_problem}
+
+import java.util.*;
+
+class VaultDoor1 {
+    public static void main(String args[]) {
+        VaultDoor1 vaultDoor = new VaultDoor1();
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter vault password: ");
+	String userInput = scanner.next();
+	String input = userInput.substring("picoCTF{".length(),userInput.length()-1);
+	if (vaultDoor.checkPassword(input)) {
+	    System.out.println("Access granted.");
+	} else {
+	    System.out.println("Access denied!");
+	}
+    }
+
+    // I came up with a more secure way to check the password without putting
+    // the password itself in the source code. I think this is going to be
+    // UNHACKABLE!! I hope Dr. Evil agrees...
+    //
+    // -Minion #8728
+    public boolean checkPassword(String password) {
+        return password.length() == 32 &&
+               password.charAt(0)  == 'd' &&
+               password.charAt(29) == '3' &&
+               password.charAt(4)  == 'r' &&
+               password.charAt(2)  == '5' &&
+               password.charAt(23) == 'r' &&
+               password.charAt(3)  == 'c' &&
+               password.charAt(17) == '4' &&
+               password.charAt(1)  == '3' &&
+               password.charAt(7)  == 'b' &&
+               password.charAt(10) == '_' &&
+               password.charAt(5)  == '4' &&
+               password.charAt(9)  == '3' &&
+               password.charAt(11) == 't' &&
+               password.charAt(15) == 'c' &&
+               password.charAt(8)  == 'l' &&
+               password.charAt(12) == 'H' &&
+               password.charAt(20) == 'c' &&
+               password.charAt(14) == '_' &&
+               password.charAt(6)  == 'm' &&
+               password.charAt(24) == '5' &&
+               password.charAt(18) == 'r' &&
+               password.charAt(13) == '3' &&
+               password.charAt(19) == '4' &&
+               password.charAt(21) == 'T' &&
+               password.charAt(16) == 'H' &&
+               password.charAt(27) == 'f' &&
+               password.charAt(30) == 'b' &&
+               password.charAt(25) == '_' &&
+               password.charAt(22) == '3' &&
+               password.charAt(28) == '6' &&
+               password.charAt(26) == 'f' &&
+               password.charAt(31) == '0';
+    }
+}
+
+length = 32
+
+d35
+
+stripped all fromating out, keeping only the location in array, and password
+\[((\d{1,2})) to find 1 or 2 digit 
+
+python source to make password easier to read
+
+#############################################
+
+import operator
+psw = 32
+lst = [[0, 'd' ],  [29, '3' ],  [4, 'r' ],  [2, '5' ], [23, 'r' ], [3, 'c' ], [17, '4' ], [1, '3' ], [7, 'b' ], [10, '_' ], [5, '4' ], [9, '3' ], [11, 't' ], [15, 'c' ], [8, 'l' ], [12, 'H' ], [20, 'c' ], [14, '_' ], [6,'m' ], [24, '5' ], [18, 'r' ], [13,'3' ], [19, '4' ], [21, 'T' ], [16, 'H' ], [27, 'f' ], [30, 'b' ], [25, '_' ], [22, '3' ], [28, '6' ], [26, 'f' ], [31, '0' ]]
+lst = sorted(lst, key=lambda x: x[0])
+print(lst)
+print("Password: ")
+
+i,j = 0, 1
+for i in range(32):
+    print(lst[i][j], end = "")
+	
+#############################################
+
+
+picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_ff63b0}
+
+
+Using netcat (nc) is going to be pretty important. Can you connect to jupiter.challenges.picoctf.org at port 64287 to get the flag?
+
+picoCTF{nECat_Mast3ry_284be8f7}
+
+There's something int the building. Can you retrieve the flag?
+picoCTF{h1d1ng_1n_th3_b1t5}
+
+This garden contains more than it seems.
+picoCTF{more_than_m33ts_the_3y3657BaB2C} #hidden in hex, use any hex editor
+
