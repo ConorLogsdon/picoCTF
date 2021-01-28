@@ -156,5 +156,13 @@ There's something int the building. Can you retrieve the flag?
 picoCTF{h1d1ng_1n_th3_b1t5}
 
 This garden contains more than it seems.
-picoCTF{more_than_m33ts_the_3y3657BaB2C} #hidden in hex, use any hex editor
+picoCTF{more_than_m33ts_the_3y3657BaB2C} #hidden in hex, use any hex editor or simply drag the img into notepad, use cntr+f or scroll to bottom where people normally put data
+
+ex: 
+!)ë¹þuñØzÓ–3Nö‹Õ.Í·±õ2ÃÁä³­?~\Êö>ùÒ.íolâmü·Rk£û`°Ç­yG„ÿ ämô¯WêÛè+E(Â‹÷Sk©øÖ?
+5Ÿ+gQ¥X[ÿ 1ÇáW.XÜæå8ÏéYšüyGõ¿/úæÿ u«Y¨()¸ó=7g&´áV2‹³mjx/ˆü,c¦}ØÇnkçk­ÖIÂ¥†ré_xx›þEùþ‚¾ °ÿ —ÿ }«Ô›©›Jû\ýÃ‡s\]|."UeÌè¾Xùú—´ÿ YÝÜ’é ÏÊXqƒêkìü=ð¥”LÓÁ;‘ÁÈ>¼×Ä­÷äÿ ®•í6Ÿêãú-aZ²…HG–÷[ÜéÇÒÄcp‘“ÄÎš»Ò'ÝÖ–V«äù?/\qZfÚÚd–4éÕ€¯›<?ÿ ,¿©âÏº¿Q\u§¶ã{—Ë%¥õÅKÚÉ©nÏ~ÔüOáÍ)æ»Yœ*sÒ¾q½ø—}â}etý=#?½n™Çjùâ÷ýoü	ÿ oü+ÿ –­ÿ ]ÿ  ®zQOhõVŠÙùŸcK+ÁåÚò{YÛIK£ô>¸^0`€0GÖºËXËFµrß~_÷Åv6?ë«·
+Î<Íj~k¯Vµy9ÊîïS®† 1¸u•÷ûÏõ¢»½¬–‡˜äÓ²èÿÙHere is a flag "picoCTF{more_than_m33ts_the_3y3657BaB2C}"
+
+BOOM!
+
 
