@@ -152,6 +152,8 @@ Using netcat (nc) is going to be pretty important. Can you connect to jupiter.ch
 
 picoCTF{nECat_Mast3ry_284be8f7}
 
+
+
 There's something int the building. Can you retrieve the flag?
 picoCTF{h1d1ng_1n_th3_b1t5}
 
@@ -165,4 +167,18 @@ ex:
 
 BOOM!
 
+The factory is hiding things from all of its users. Can you login as Joe and find what they've been looking at? https://jupiter.challenges.picoctf.org/problem/13594/ (link) or http://jupiter.challenges.picoctf.org:13594
 
+picoCTF{th3_c0nsp1r4cy_l1v3s_d1c24fef}
+
+Can you find the flag in file without running it?
+
+picoCTF{5tRIng5_1T_827aee91}
+
+This is a really weird text file TXT? Can you find the flag?
+
+picoCTF{now_you_know_about_extensions}
+
+
+This vault uses for-loops and byte arrays. The source code for this vault is here: VaultDoor3.java
+picoCTF{jU5t_a_sna_3lpm18gb41_u_4_mfr340}
