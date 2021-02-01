@@ -180,5 +180,12 @@ This is a really weird text file TXT? Can you find the flag?
 picoCTF{now_you_know_about_extensions}
 
 
-This vault uses for-loops and byte arrays. The source code for this vault is here: VaultDoor3.java
+This vault uses for-loops and byte arrays. The source code for this vault is here: VaultDoor3.java (comeback waiting for java on VSC)
 picoCTF{jU5t_a_sna_3lpm18gb41_u_4_mfr340}
+
+
+Can you break into this super secure portal? https://jupiter.challenges.picoctf.org/problem/37821/ (link) or http://jupiter.challenges.picoctf.org:37821
+
+picoCTF{no_clients_plz_1a3c89}
+
+
